@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,700,400,600);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300);
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 * {
 	margin: 0;
@@ -8,8 +9,12 @@
 	box-sizing: border-box;
 }
 
-body {
+#header {
 	font-family: 'Source Code Pro', ;
+}
+
+div.right-content, .left-content {
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -125,6 +130,9 @@ a.glow:hover, a.glow:focus
 #portrait {
 	margin-left: 130px;
 	border: 1px solid black;
+	-moz-box-shadow: 6px 6px 7px #000; 
+    -webkit-box-shadow: 6px 6px 7px #000; 
+    box-shadow: 6px 6px 7px #000;
 }
 
 #contact {
