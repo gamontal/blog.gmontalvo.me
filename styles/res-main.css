@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	margin-top: 30px;
+	color: white;
+}
+
+body {
+	background-color: black;
+	font-size: 20px;
+}
+
+.content {
+	padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-headers {
+	font-family: 'PT Sans', sans-serif;
+}
+
+#hinfo {
+	font-size: 18px;
+}
+
+span {
+	float: left;
+}
+.sep-right {
+	margin-left: 300px;
+}
+
+#langsec {
+	margin-left: 20px;
+}
+
+
