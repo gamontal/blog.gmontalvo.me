@@ -11,7 +11,7 @@ If you would like to get in touch with me, whether it be for tech support, a bus
 
 <p>Projects:</p>
 <a href="https://github.com/gmontalvoriv/mailock">mailock</a>: A command-line utility to send encrypted emails with OpenPGP.js</br>
-<a href="https://github.com/gmontalvoriv/CryptVB">CryptVB</a>: A very simple cryptosystem. Made in Visual Basic.</br></br>
+<a href="https://github.com/gmontalvoriv/CryptVB">CryptVB</a>: A very simple cryptosystem. Made in Visual Basic.</br>
 
 <p>Social Media:</p>
 Twitter: <a href="https://twitter.com/gmontalvoriv">@gmontalvoriv</a></br>
