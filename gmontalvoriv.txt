@@ -13,7 +13,7 @@ Software:</br>
 <a href="https://github.com/gmontalvoriv/mailock">mailock</a>: A command-line utility to send encrypted emails with OpenPGP.js</br>
 <a href="https://github.com/gmontalvoriv/CryptVB">CryptVB</a>: A very simple cryptosystem. Made in Visual Basic.</br>
 
-Social Media:</br>
+Links:</br>
 Twitter: <a href="https://twitter.com/gmontalvoriv">@gmontalvoriv</a></br>
 Codepen: <a href="http://codepen.io/gmontalvo/">gmontalvo</a></br>
 GitHub: <a href="https://github.com/gmontalvoriv">gmontalvoriv</a></br>
