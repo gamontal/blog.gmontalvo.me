@@ -11,8 +11,6 @@ If you would like to get in touch with me, whether it be for tech support, a bus
 
 Links:</br>
 Twitter: <a href="https://twitter.com/gmontalvoriv">@gmontalvoriv</a></br>
-Codepen: <a href="http://codepen.io/gmontalvo/">gmontalvo</a></br>
-NPM: <a href="https://www.npmjs.com/~gamr">@gamr</a><br>
+GitHub: <a href="https://github.com/gmontalvoriv">@gmontalvoriv</a></br>
 LinkedIn: <a href="https://pr.linkedin.com/pub/gabriel-montalvo/b4/730/8">gmontalvoriv</a></br>
 Freenode: <a href="irc://chat.freenode.net/npm">gamr5416</a></br>
-RubyGems: <a href="https://rubygems.org/profiles/gamr">gamr</a><br><br>
