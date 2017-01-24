@@ -1,0 +1,18 @@
+title: Gabe on Software
+description: programming and other things
+show_downloads: false
+google_analytics: UA-90773418-1
+github:
+  url: https://braincraftblog.github.io/braincraft-site/
+baseurl:
+theme: jekyll-theme-minimal
+paginate: 5
+paginate_path: "page:num"
+gems:
+  - jemoji
+github_link: https://github.com/gmontalvoriv
+twitter_link: https://twitter.com/gmontalvoriv
+reddit_link: https://www.reddit.com/user/theprimeprogram/
+linkedin_link: https://www.linkedin.com/in/gabriel-montalvo-553931135
+youtube_link: 
+codepen_link: http://codepen.io/gmontalvoriv/

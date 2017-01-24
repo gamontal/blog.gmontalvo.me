@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <div class="wrapper">
+    <header>
+      <a href="{{ site.baseurl }}/">
+        <!--<a href="/"><img class="blog-logo" src="/assets/img/logo.png">-->
+        <h1 class="blog-title">{{ site.title }}</h1></a>
+      </a>
+      <p class="blog-tagline">{{ site.description }}</p>
+
+      <br>
+
+      <form action="{{ site.baseurl }}/search.html" method="get">
+        <input id="search-box" class="searchbox" type="text" placeholder="Search" name="query">
+        <input class="search-submit" type="submit" value="">
+      </form>
+
+      <br><br>
+
+      <nav class="desktop-menu">
+        <h3>RESOURCES</h3>
+
+        <ul class="menu-items">
+          <li>
+            <a href="{{ site.baseurl }}/2017/01/19/about-me.html">About Me</a>
+          </li>
+          <li>
+            <a href="mailto:gabe.montalvo5@gmail.com">Contact</a>
+          </li>
+          <!--<li>
+            <a href="#" target="_blank">Tutorials</a>
+          </li>-->
+        </ul>
+        
+        <br><br><br><br><br>
+
+        <h3>POSTS</h3>
+
+        <ul>
+          <li>
+            <a href="{{ site.baseurl }}/archive.html">Archive</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+    <section class="content">
+
+      {{ content }}
+
+    </section>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

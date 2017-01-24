@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="post">
+  <div class="post-date">
+    {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  <h1 class="post-title">
+    {{ page.title }}
+  </h1>
+
+  <div class="post-entry">
+    {{ content }}
+  </div>
+
+  <br>
+  <div class="page-nav">
+    {% if page.previous.url %}
+      <div class="page-nav-left">
+        <div class="read-prev-label">previous</div>
+        <a class="read-prev-title" href="{{ site.baseurl }}{{ page.previous.url }}">{{page.previous.title}}</a>
+      </div>
+    {% endif %}
+    {% if page.next.url %}
+      <div class="page-nav-right">
+        <div class="read-next-label">next</div>
+        <a class="read-next-title" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
+      </div>
+    {% endif %}
+  </div>
+
+  <br>
+  <hr>
+
+  <div class="written-by">
+    <h5>Written by <a href="{{ page.author_link }}">{{ page.author }}</a></h5>
+  </div>
+
+  <br><br>
+
+  <div class="comments">
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+  </div>
+</article>
