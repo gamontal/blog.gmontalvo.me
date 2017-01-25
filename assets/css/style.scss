@@ -85,7 +85,7 @@ header ul a:hover {
 .blog-title {
   color: #505050;
   font-family: Roboto,'Open Sans', sans-serif;
-  font-size: 2.1rem;
+  font-size: 1.5rem;
   margin-bottom: 0;
   position: relative;
 }
@@ -261,7 +261,8 @@ footer ul {
 }
 .post {
 }
-.post-date {
+.post-data {
+  font-family: Roboto, 'Open Sans', sans-serif;
   color: #9EABB3;
   margin-bottom: 5px;
 }
@@ -287,9 +288,6 @@ footer ul {
 }
 .post-entry a {
   font-family: 'Open Sans', sans-serif;
-}
-.post-date {
-  font-family: Roboto, 'Open Sans', sans-serif;
 }
 .older-posts {
   float: right;
