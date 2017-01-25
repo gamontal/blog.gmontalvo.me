@@ -2,6 +2,7 @@ title: blog.gmontalvo
 description: programming and other things
 show_downloads: false
 google_analytics: UA-90773418-1
+disqus: gabe-montalvo-blog
 github:
   url: https://braincraftblog.github.io/braincraft-site/
 baseurl:
