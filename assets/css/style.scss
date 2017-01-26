@@ -1,6 +1,7 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
@@ -32,7 +33,7 @@ input:focus{
 }
 
 .top-nav {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .wrapper {
@@ -92,7 +93,7 @@ header ul a:hover {
 
 .blog-title {
   color: #505050;
-  font-family: Roboto,'Open Sans', sans-serif;
+  font-family: Montserrat,'Open Sans', sans-serif;
   font-size: 1.9rem;
   margin-bottom: 0;
   position: relative;
