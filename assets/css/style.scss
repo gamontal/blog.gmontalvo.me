@@ -6,6 +6,10 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 @import "{{ site.theme }}";
 
+html {
+  height: 100%;
+}
+
 body {
   color: #222;
 }
@@ -236,7 +240,7 @@ nav {
 
 .menu-section {
   margin-top: 0;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 .menu-section h3 {
@@ -244,7 +248,6 @@ nav {
 }
 
 .copyright {
-  margin-top: 150px;
   position: relative;
   font-size: 0.7rem;
   color: #BBC7CC;
@@ -347,6 +350,20 @@ span.newer-posts, span.older-posts {
 
 figcaption {
   color: #9EABB3;
+}
+
+.social-links {
+  border: 1px solid #eee;
+  border-radius: 2px;
+  max-width: 160px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
 }
 
 @media only screen and (max-width: 1100px) {

@@ -20,7 +20,7 @@
           <form action="{{ site.baseurl }}/search.html" class="search-form" id="searchform" method="get">
             <span id="noEasy"><input class="sb-search-submit" type="submit" value="">
             <span class="sb-icon-search"></span></span>
-            <input id="sbox" name="query" onblur="if (this.placeholder == '') {this.placeholder = 'To search type + hit enter';}" onfocus="if (this.placeholder == 'To search type + hit enter') {this.placeholder = '';}" placeholder="To search type + hit enter" type="text" x-webkit-speech="">
+            <input id="sbox" name="query" onblur="if (this.placeholder == '') {this.placeholder = 'Search';}" onfocus="if (this.placeholder == 'Search') {this.placeholder = '';}" placeholder="Search" type="text" x-webkit-speech="">
           </form>
         </div>
       </div>
@@ -41,45 +41,42 @@
               <a href="mailto:contact@gmontalvo.me">Contact</a>
             </li>
             <li>
-              <a href="{{ site.baseurl }}/feed.xml">RSS Feed</a>
-            </li>
-            <li>
               <a href="{{ site.baseurl }}/archive.html">Post Archive</a>
             </li>
           </ul>
         </div>
 
-        <div class="menu-section">
-          <h3>social media</h3>
 
-          <ul>
-            <li>
-              <a href="{{ site.github_link }}">GitHub</a>
-            </li>
-            <li>
-              <a href="{{ site.twitter_link }}">Twitter</a>
-            </li>
-            <li>
-              <a href="{{ site.linkedin_link }}">LinkedIn</a>
-            </li>
-            <li>
-              <a href="{{ site.reddit_link }}">Reddit</a>
-            </li>
-            <li>
-              <a href="{{ site.codepen_link }}">CodePen</a>
-            </li>
-          </ul>
-        </div>
+        <aside>
+          <div class="social-links">
+            Follow me on Twitter
+
+            <br><br>
+
+            <a href="https://twitter.com/gmontalvoriv" class="twitter-follow-button" data-show-count="false">Follow @gmontalvoriv</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <br><br>
+            <hr>
+
+            Follow me on GitHub
+
+            <br><br>
+
+            <a class="github-button" href="https://github.com/gmontalvoriv" aria-label="Follow @gmontalvoriv on GitHub">Follow @gmontalvoriv</a>          
+          
+          </div>
+        </aside>
       </nav>
 
+      <br><br>
+
+      <i class="fa fa-rss" aria-hidden="true"> </i><a href="{{ site.baseurl }}/feed.xml"> Subscribe to the RSS Feed</a>
+
+      <br><br>
+
       <div class="copyright">
-        Copyright Gabriel Montalvo © 2017
-      
-        <br>
-
-        Proudly published with Github Pages
+        Copyright Gabriel Montalvo © 2017 
       </div>
-
     </header>
 
     <section class="content">
@@ -88,8 +85,10 @@
 
     </section>
 
-    {% include footer.html %}
   </div>
+
+  {% include footer.html %}
+  
 </body>
 
 </html>
