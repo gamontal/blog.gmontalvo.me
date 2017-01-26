@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  <div class="wrapper">
+
+    <div class="top-nav">
+      <a href="{{ site.baseurl }}/">
+        <h1 class="blog-title">{{ site.title }}</h1>
+      </a>
+      
+      <p class="blog-tagline">{{ site.description }}</p>
+
+      <br><br>
+
+      <div class="site-search">
+        <div id="searchbox" class="mobile-form">
+          <form action="{{ site.baseurl }}/search.html" class="search-form" id="searchform" method="get">
+            <span id="noEasy"><input class="sb-search-submit" type="submit" value="">
+            <span class="sb-icon-search"></span></span>
+            <input id="sbox" name="query" onblur="if (this.placeholder == '') {this.placeholder = 'Search';}" onfocus="if (this.placeholder == 'Search') {this.placeholder = '';}" placeholder="Search" type="text" x-webkit-speech="">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <header>
+
+      <nav class="menu">
+        
+        <div class="menu-section">
+          <h3>resources</h3>
+
+          <ul>
+            <li>
+              <a href="{{ site.baseurl }}/2017/01/19/about-me.html">About Me</a>
+            </li>
+            <li>
+              <a href="mailto:contact@gmontalvo.me">Contact</a>
+            </li>
+            <li>
+              <a href="{{ site.baseurl }}/archive.html">Post Archive</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <aside>
+          <div class="social-links">
+            Follow me on Twitter
+
+            <br><br>
+
+            <a href="https://twitter.com/gmontalvoriv" class="twitter-follow-button" data-show-count="false">Follow @gmontalvoriv</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            <br><br>
+            <hr>
+
+            Follow me on GitHub
+
+            <br><br>
+
+            <a class="github-button" href="https://github.com/gmontalvoriv" aria-label="Follow @gmontalvoriv on GitHub">Follow @gmontalvoriv</a>          
+          
+          </div>
+        </aside>
+      </nav>
+
+      <br><br>
+
+      <div class="subscription-links"><i class="fa fa-rss" aria-hidden="true"> </i><a href="{{ site.baseurl }}/feed.xml"> Subscribe to the RSS Feed</a></div>
+
+      <div class="copyright">
+        Copyright Gabriel Montalvo © 2017 
+      </div>
+    </header>
+
+    <section class="content">
+
+      {{ content }}
+
+    </section>
+
+  </div>
+
+  {% include footer.html %}
+  
+</body>
+
+</html>

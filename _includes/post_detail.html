@@ -1,0 +1,15 @@
+<div class="post-data">
+    {{ post.date | date: "%B %e, %Y" }} {% if post.comments %} / {% if post.title %}
+    <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"></a>
+    {% endif %} {% if post.title %}
+    <a href="{{ site.baseurl }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}"></a>
+    {% endif %} {% endif %}
+</div>
+
+<h1 class="post-title">
+    {% if page.title %}
+    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a> {% endif %} {% if post.title %}
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> {% endif %}
+</h1>
+
+<div class="post-entry">{{ content }}</div>

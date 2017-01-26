@@ -1,4 +1,3 @@
-
 <!--
 Copyright (c) 2011 Sam Phippen <samphippen@googlemail.com>
  
@@ -182,3 +181,29 @@ function t() {
 </script>
 </body> 
 </html> 
+=======
+---
+layout: default
+---
+
+<div class="blog-index">
+  {% for post in paginator.posts %} {% assign post = Untitled %} {% assign content = post.content %}
+  <!-- | truncatewords:50 -->
+  {% include post_detail.html %} {% endfor %}
+
+  <!-- Pagination links -->
+  {% if paginator.total_pages > 1 %}
+
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a class="newer-posts" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">PREVIOUS</a> {% else %}
+        <span class="newer-posts">PREVIOUS</span> {% endif %}
+      
+      {% if paginator.next_page %}
+        <a class="older-posts" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">NEXT</a> {% else %}
+        <span class="older-posts">NEXT</span> {% endif %}
+    </div>
+
+  {% endif %}
+</div>
+>>>>>>> gh-pages
