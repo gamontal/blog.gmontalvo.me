@@ -389,6 +389,10 @@ span.newer-posts, span.older-posts {
   background-color: #505050;
 }
 
+.noscroll {
+  overflow: hidden; 
+}
+
 .mobile-menu-btn {
   display: none;
   z-index: 9999;

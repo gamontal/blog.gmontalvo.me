@@ -13,8 +13,9 @@ $('#return-to-top').click(function () {      // When arrow is clicked
 });
 
 $(document).ready(function(){
-  $('.hamburger').click(function(){
+  $('.hamburger').click(function () {
     $(this).toggleClass('is-active');
     $('body').toggleClass('show');
+    $('body').toggleClass('noscroll');
   });
 });
