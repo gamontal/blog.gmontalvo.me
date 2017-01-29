@@ -381,6 +381,10 @@ span.newer-posts, span.older-posts {
   opacity: 1;
 }
 
+.hamburger:focus {
+  outline: none;
+}
+
 .hamburger-inner, .hamburger-inner:before, .hamburger-inner:after {
   background-color: #505050;
 }
