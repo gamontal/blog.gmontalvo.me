@@ -375,14 +375,18 @@ span.newer-posts, span.older-posts {
   .site-search, .wrapper, section, header {
     all: unset;
   }
+
   div#searchbox #searchform {
     width: 100%;
   }
+  
   .copyright, .menu, .blog-tagline, .subscription-links {
     display: none;
   }
+
   .blog-title, .blog-title a {
     font-size: 1.7rem;
-    max-width: 500px;
+    max-width: 200px;
+    margin-right: 0;
   }
 }
