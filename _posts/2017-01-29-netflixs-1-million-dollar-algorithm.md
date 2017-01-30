@@ -13,7 +13,11 @@ First, let me provide some context. I'm one week away from starting my internshi
 
 ### The Netflix Prize
 
-<center><img style="margin: 50px;" src="/assets/posts/images/netflix.png"></center>
+<br>
+
+<center><img src="/assets/posts/images/netflix.png"></center>
+
+<br>
 
 In 2006 the web-based DVD rental company offered a million dollars to the first person or group that could take its customer data and create a model that would show a 10% improvement over ***Cinematch*** (Netflix's 2006 algorithm).
 
