@@ -39,7 +39,7 @@ In 2010, the company announced another prize competition called The Sequel, but 
 
 You can read the winning team's paper here: 
 
-[The BellKor Solution to the Netﬂix Grand Prize 2009 - Netflix Prize](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwjI4Z6UiOjRAhUollQKHWg4Cd0QFgg0MAM&url=http%3A%2F%2Fwww.netflixprize.com%2Fassets%2FGrandPrize2009_BPC_BellKor.pdf&usg=AFQjCNGYjYEo-H2X5xyyaHpkRmGr0dr5lw&sig2=lmwy6hubEdFXxfGvZtp6IA)
+[The BellKor Solution to the Netﬂix Grand Prize 2009 - Netflix Prize](http://www.netflixprize.com/assets/GrandPrize2009_BPC_BellKor.pdf)
 
 <br>
 
