@@ -230,12 +230,11 @@ span#noEasy:hover {
 }
 
 .blog-logo {
-  margin-top: 4px;
+  margin-top: 0px;
   margin-right: 10px;
   float: left;
-  display: block;
-  max-height: 43px;
-  max-width: 43px;
+  max-height: 100px;
+  max-width: 100px;
   position: relative;
 }
 
@@ -401,10 +400,6 @@ span.newer-posts, span.older-posts {
   text-align: center;
   padding: 20px;
   background-color: #f5f5f5;
-}
-
-.subscription-links, .subscription-links a {
-  color: #9E9E9E;
 }
 
 .hamburger {
