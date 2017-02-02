@@ -5,25 +5,32 @@
 
 <body>
   <div class="wrapper">
+    <button class="mobile-menu-btn hamburger hamburger--collapse" type="button" onclick="console.log('clicked');">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+    <div class="overlay">
+      <nav class="mobile-menu">
+        <ul>
+          <li><a href="{{ site.baseurl }}/2017/01/19/about-me.html">About Me</a></li>
+          <li><a href="mailto:contact@gmontalvo.me">Contact</a></li>
+          <li><a href="{{ site.baseurl }}/archive.html">Post Archive</a></li>
+          <li><a href="{{ site.baseurl }}/search.html">Search</a></li>
+        </ul>
+      </nav> 
+    </div>
 
     <div class="top-nav">
       <a href="{{ site.baseurl }}/">
+        <!--<img class="blog-logo" width="50px" height="50px" src="{{ site.baseurl }}/assets/img/swirl.png">-->
         <h1 class="blog-title">{{ site.title }}</h1>
       </a>
       
       <p class="blog-tagline">{{ site.description }}</p>
 
-      <br><br>
-
-      <div class="site-search">
-        <div id="searchbox" class="mobile-form">
-          <form action="{{ site.baseurl }}/search.html" class="search-form" id="searchform" method="get">
-            <span id="noEasy"><input class="sb-search-submit" type="submit" value="">
-            <span class="sb-icon-search"></span></span>
-            <input id="sbox" name="query" onblur="if (this.placeholder == '') {this.placeholder = 'Search';}" onfocus="if (this.placeholder == 'Search') {this.placeholder = '';}" placeholder="Search" type="text" x-webkit-speech="">
-          </form>
-        </div>
-      </div>
+      <br>
     </div>
 
     <header>
@@ -31,18 +38,13 @@
       <nav class="menu">
         
         <div class="menu-section">
-          <h3>resources</h3>
+          <h3>Resources</h3>
 
           <ul>
-            <li>
-              <a href="{{ site.baseurl }}/2017/01/19/about-me.html">About Me</a>
-            </li>
-            <li>
-              <a href="mailto:contact@gmontalvo.me">Contact</a>
-            </li>
-            <li>
-              <a href="{{ site.baseurl }}/archive.html">Post Archive</a>
-            </li>
+            <li><a href="{{ site.baseurl }}/2017/01/19/about-me.html">About Me</a></li>
+            <li><a href="mailto:contact@gmontalvo.me">Contact</a></li>
+            <li><a href="{{ site.baseurl }}/archive.html">Post Archive</a></li>
+            <li><a href="{{ site.baseurl }}/search.html">Search</a></li>
           </ul>
         </div>
 
@@ -62,7 +64,7 @@
 
             <br><br>
 
-            <a class="github-button" href="https://github.com/gmontalvoriv" aria-label="Follow @gmontalvoriv on GitHub">Follow @gmontalvoriv</a>          
+            <a class="github-button" href="{{ site.github_link }}" aria-label="Follow @gamontalvo on GitHub">Follow @gamontalvo</a>          
           
           </div>
         </aside>
@@ -70,10 +72,10 @@
 
       <br><br>
 
-      <div class="subscription-links"><i class="fa fa-rss" aria-hidden="true"> </i><a href="{{ site.baseurl }}/feed.xml"> Subscribe to the RSS Feed</a></div>
+      <div class="rss-link"><i style="color: #9E9E9E;" class="fa fa-rss" aria-hidden="true"> </i><a href="{{ site.baseurl }}/feed.xml"> Subscribe to the RSS Feed</a></div>
 
       <div class="copyright">
-        Copyright Gabriel Montalvo © 2017 
+        Copyright Gabriel Montalvo © 2017
       </div>
     </header>
 
