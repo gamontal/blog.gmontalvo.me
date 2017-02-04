@@ -6,7 +6,8 @@ layout: search
 
 <div id="search-container">
   <div class="wrap">
-    <input type="text" id="search-input"><br />
+    <input type="text" id="search-input">
+    <br />
     <ul id="results-container"></ul>
   </div>
 </div>
@@ -17,15 +18,16 @@ layout: search
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
+    
     json: '{{ site.baseurl }}/search.json',
-    searchResultTemplate: '<li><div class="post-data" style="font-size: 12px;">{date}</div><a href="{url}" title="{desc}"><h3>{title}</h3></a><p>{content}</p></li>',
+
+    // Post preview template
+    searchResultTemplate: '<li><div class="post-data" style="font-size: 12px;">{date}</div>' +
+    '<a href="{url}" title="{desc}"><h3>{title}</h3></a><p>{content}</p></li>',
+
     noResultsText: '<h1 id="not-found">No results found</h1>',
     limit: 10,
     fuzzy: false,
-    templateMiddleware: function (prop, value, template) {
-      if (prop === 'content') {
-        return value.substring(0, 150) + ' ...';
-      }
-    }
-  })
+  });
+
 </script>
