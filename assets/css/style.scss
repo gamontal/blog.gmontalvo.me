@@ -148,7 +148,6 @@ footer {
 }
 
 .blog-logo {
-  margin-top: 0px;
   margin-right: 10px;
   float: left;
   max-height: 100px;
@@ -157,11 +156,12 @@ footer {
 }
 
 .blog-title {
-  color: #505050;
+  color: #424242;
   font-family: Montserrat,'SF UI Text', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 0;
+  padding-top: 3px;
   position: relative;
 }
 
