@@ -3,7 +3,7 @@ id: 2
 layout: post
 title:  "Installing Quake III Open Arena on the C.H.I.P. Microcomputer"
 author: Gabriel Montalvo
-author_link: https://twitter.com/gmontalvoriv
+author_link: https://twitter.com/gmontalvodev
 date:   2017-01-19T22:07:31.352Z
 categories:
 comments: true
