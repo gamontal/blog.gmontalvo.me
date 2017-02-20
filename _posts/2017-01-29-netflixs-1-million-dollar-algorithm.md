@@ -5,7 +5,7 @@ title:  "Netflix's $1 Million Algorithm"
 author: Gabriel Montalvo
 author_link: https://twitter.com/gmontalvoriv
 date: 2017-01-29T20:07:46.425Z
-categories:
+categories: research
 comments: true
 ---
 

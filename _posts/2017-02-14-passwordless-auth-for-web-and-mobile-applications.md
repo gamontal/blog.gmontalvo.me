@@ -5,7 +5,7 @@ title:  "ALTER TABLE users DROP COLUMN password;"
 author: Gabriel Montalvo
 author_link: https://twitter.com/gmontalvodev
 date:   2017-02-14T02:01:53.141Z
-categories:
+categories: research
 comments: true
 ---
 

@@ -5,7 +5,7 @@ title:  "Installing Quake III Open Arena on the C.H.I.P. Microcomputer"
 author: Gabriel Montalvo
 author_link: https://twitter.com/gmontalvodev
 date:   2017-01-19T22:07:31.352Z
-categories:
+categories: tutorial
 comments: true
 ---
 
@@ -52,7 +52,7 @@ Once the flashing process is completed, put the C.H.I.P. back in the unit and co
 
 <br>
 
-### Update the package list
+### Update the Package List
 
 Back on the PocketCHIP. open the *Terminal* application and type the following command to update your packages list.
 
@@ -64,7 +64,7 @@ $ sudo apt update
 
 <br>
 
-### Install GIT & clone Quake III
+### Install GIT & Clone Quake III
 
 In order to download the Quake III source code you need install the *git* version control system. Type the following command to install *git* and clone the source code
 
@@ -86,7 +86,7 @@ $ cd ioquake3-gles && ./build.sh
 
 <br>
 
-### Run the game
+### Run the Game
 
 If everything went well, type the following command to start Quake 3 Open Arena
 
