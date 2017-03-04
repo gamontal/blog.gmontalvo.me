@@ -11,7 +11,7 @@ comments: true
 
 As a user, how do you keep track of all your passwords? Do you use the same password for all your accounts? Do you have the necessary resources to implement basic password authentication? What about user experience? How often do your users sign out/sign in? These are some of the questions that may arise in the early stages of design (sometimes during development) of your project. Going passwordless can have a significant impact on security and user experience.
 
-From a coding perspective, it is very easy to make mistakes when it comes to authentication. There so many things you need to consider; Using the right hashing algorithm, storing the password in a database, validation, password reset, secure data transfers between client and servers and so on. Of course, the right authentication method depends on the kind of software you're building. Modeling and actually implementing authentication can be very complex and sometimes even dangerous if you're doing it yourself. 
+From a coding perspective, it is very easy to make mistakes when it comes to authentication. There so many things you need to consider; Using the right hashing algorithm, storing the password in a database, validation, password reset, secure data transfers between client and servers and so on. Of course, the right authentication method depends on the kind of software you're building. Modeling and implementing authentication can be very complex and sometimes even dangerous if you're doing it yourself. 
 
 ### Going Passwordless
 
@@ -30,7 +30,7 @@ From a coding perspective, it is very easy to make mistakes when it comes to aut
 
 Redirecting a user to your web app after a successful validation can be fairly straight forward. However, token-based authentication for mobile applications can get a bit tricky and there isn't much information on how to do this out there. After sending an email or SMS to check user identity, you need to redirect the user to your application and verify the authorization code. This is where **deep linking** comes in.
 
-> Deeplinking is a methodology for launching a native mobile application via a link. Deeplinking connects a unique url to a defined action in a mobile app, seamlessly linking users to relevant content.
+> Deeplinking is a methodology for launching a native mobile application via a link. Deeplinking connects a unique URL to a defined action in a mobile app, seamlessly linking users to relevant content.
 
 Beth Kindig of *Vserv.Mobi* explains the concept behind deep links and the many beneficial aspects and solutions to help achieve the best possible user experience.
 
@@ -46,7 +46,7 @@ Branch allows you to dynamically create authorization links through their servic
 
 ### Authentication As A Service
 
-Outsourcing the authentication process can help reduce cost of operations and speed up the developement process.
+Outsourcing the authentication process can help reduce cost of operations and speed up the development process.
 
 #### Auth0
 
@@ -66,4 +66,4 @@ Twilio allows software developers to programmatically make and receive phone cal
 
 ### Conclusion
 
-Like I said before, I don't claim that passwordless authentication works everywhere, but more and more projects are starting to go in this direction and the experience is far more seemless when you have a strong authentication system and your users don't have to remember passwords. 
+Like I said before, I don't claim that passwordless authentication works everywhere, but more and more projects are starting to go in this direction and the experience is far more seamless when you have a strong authentication system and your users don't have to remember passwords. 
